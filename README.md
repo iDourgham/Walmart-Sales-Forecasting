@@ -83,7 +83,7 @@ This project utilizes a cleaned **Walmart sales dataset**. Each row represents w
 -   **Pandas:** For efficient data manipulation and time series handling.
 -   **NumPy:** For numerical operations.
 -   **Matplotlib & Seaborn:** For data visualization and exploratory data analysis.
--   **Statsmodels / Scikit-learn / Prophet / pmdarima:** (Choose applicable libraries based on your chosen forecasting model, e.g., for ARIMA, Prophet, etc.).
+-   **Statsmodels / Scikit-learn / Prophet / pmdarima:** 
 
 * * * * *
 
