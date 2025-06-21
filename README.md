@@ -95,8 +95,6 @@ This project employs a **multi-step forecasting methodology**. Specifically, the
 -   *(**Option A: Recursive Single-Step** - if applicable)* Building a model that predicts one step ahead, then uses that prediction as an input to predict the next step, and so on.
 -   *(**Option B: Direct Multi-Step** - if applicable)* Training separate models for each future time step, or a single model that directly outputs multiple future steps.
 
-*(Describe your specific multi-step forecasting strategy here in more detail once you've implemented it.)*
-
 * * * * *
 
 📈 Results & Evaluation
