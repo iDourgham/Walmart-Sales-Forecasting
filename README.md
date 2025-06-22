@@ -8,7 +8,7 @@ This project focuses on a real-world time series forecasting challenge: predicti
 📊 Project Overview
 -------------------
 
-This repository contains the analysis and forecasting model for predicting weekly sales for **Department [YOUR_DEPARTMENT_ID]** from a cleaned Walmart dataset. The project follows a multi-step forecasting approach, aiming to provide robust predictions for future sales periods.
+This repository contains the analysis and forecasting model for predicting weekly sales for **Department 2** from a cleaned Walmart dataset. The project follows a multi-step forecasting approach, aiming to provide robust predictions for future sales periods.
 
 Key aspects of this project include:
 
