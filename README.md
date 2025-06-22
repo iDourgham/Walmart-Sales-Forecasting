@@ -30,8 +30,8 @@ To explore this project and run the analysis yourself, follow these steps:
     Bash
 
     ```
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/iDourgham/Walmart-Sales-Forecasting.git
+    cd Walmart-Sales-Forecasting
 
     ```
 
@@ -57,9 +57,6 @@ To explore this project and run the analysis yourself, follow these steps:
 
     ```
 
-    (If `requirements.txt` isn't provided, common libraries you might need include `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`, `scikit-learn`, and potentially `pmdarima` or `prophet` depending on the model chosen).
-
-
 * * * * *
 
 📊 Dataset
@@ -70,9 +67,7 @@ This project utilizes a cleaned **Walmart sales dataset**. Each row represents w
 -   **Date:** The week of the sales.
 -   **Weekly_Sales:** The target variable to be predicted.
 -   **Dept:** The department ID (this project focuses on a single, assigned department).
--   Other relevant features (e.g., `IsHoliday`, `Temperature`, `Fuel_Price`, `CPI`, `Unemployment` if used in the model).
-
-*(If you used your own dataset, briefly describe it here: what it contains, its timestamp column, and target variable.)*
+-   Other relevant features (e.g., `IsHoliday`, `Temperature`, `Fuel_Price`, `CPI`, `Unemployment`).
 
 * * * * *
 
