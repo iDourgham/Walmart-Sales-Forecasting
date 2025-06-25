@@ -1,14 +1,14 @@
-import pickle
-import numpy as np
+import joblib
+import pandas as pd
+import os
 from pathlib import Path
-from app.schemas import PredictionInput, PredictionOutput
 
-MODEL_PATH = Path(__file__).parent / "model" / "random_forest_pipeline.pkl"
+# Load the trained model
+# model_path = os.path.join("model", "xgb_model.pkl")
+# model_path = os.path.join(os.getcwd(), "model", "xgb_model.pkl")
+model_path = Path(__file__).resolve().parents[1] / "model" / "xgb_model.pkl"
+xgb_model = joblib.load(model_path)
 
-with open(MODEL_PATH, "rb") as f:
-    model = pickle.load(f)
-
-def make_prediction(data: PredictionInput) -> PredictionOutput:
-    input_data = np.array([data.features])  # must match training shape
-    prediction = model.predict(input_data)[0]
-    return PredictionOutput(prediction=prediction)
+def predict_sales(input_df: pd.DataFrame) -> pd.Series:
+    """Predict weekly sales given a DataFrame of features."""
+    return xgb_model.predict(input_df)
