@@ -1,4 +1,7 @@
-Sales Forecasting for Walmart
+# Sales Forecasting for Walmart
+
+<img src="images/Walmart.jpg" alt="Walmart" width="400"/>
+
 ====================================================================
 
 This project focuses on a real-world time series forecasting challenge: predicting **weekly sales for a specific department within a Walmart dataset**. Utilizing historical sales data, the goal is to develop and evaluate a forecasting model that can accurately predict future weekly sales.
@@ -17,6 +20,7 @@ Key aspects of this project include:
 -   **Time Series Preparation:** Handling date and time features, and preparing the data for time series modeling.
 -   **Multi-Step Forecasting:** Implementation of strategies (e.g., recursive single-step or direct multi-step) to predict sales for multiple future time periods.
 -   **Model Development:** Building and evaluating a time series forecasting model tailored to the characteristics of the departmental sales data.
+-   **Deployment:** Deployment of the forecasting model for practical use in the real world using streamlit.
 
 * * * * *
 
@@ -78,25 +82,7 @@ This project utilizes a cleaned **Walmart sales dataset**. Each row represents w
 -   **Pandas:** For efficient data manipulation and time series handling.
 -   **NumPy:** For numerical operations.
 -   **Matplotlib & Seaborn:** For data visualization and exploratory data analysis.
--   **Statsmodels / Scikit-learn / Prophet / pmdarima:** 
+-   **Statsmodels / Scikit-learn / Prophet / Neural Prophet / SARIMAX / Auto ARIMA / XGBoost.**
+-   **Deep Learning: LSTM / GRU / CNN / RNN.**
+-   **Deployment:** Streamlit
 
-* * * * *
-
-🎯 Forecasting Approach
------------------------
-
-This project employs a **multi-step forecasting methodology**. Specifically, the notebook demonstrates:
-
--   *(**Option A: Recursive Single-Step** - if applicable)* Building a model that predicts one step ahead, then uses that prediction as an input to predict the next step, and so on.
--   *(**Option B: Direct Multi-Step** - if applicable)* Training separate models for each future time step, or a single model that directly outputs multiple future steps.
-
-* * * * *
-
-📈 Results & Evaluation
------------------------
-
-*(This section will be populated once you complete your project. It should include:)*
-
--   A summary of the model's performance (e.g., RMSE, MAE, MAPE).
--   Visualizations of actual vs. predicted sales.
--   Discussion of any challenges encountered and solutions implemented.
